@@ -1,16 +1,21 @@
-# Paleta pintor
-Aplicación educativa estática, en español, para móvil, tableta y ordenador.
-URL: https://ricardoyf.github.io/Roma/paleta-pintor/
+# PaletaPintor
 
-- Aprendizaje guiado con cinco niveles y mapa de colores.
-- Laboratorio de gotas con cantidades variables.
-- Cuatro tipos de juegos, reconocimiento de primarios y reto mixto.
-- Paleta del pintor: ocho barras (primarios, secundarios, blanco y negro), resultado en directo, recetas de 16 colores y porcentajes que suman 100%.
-- Progreso y paleta guardados únicamente en este navegador.
-- Sin anuncios, cuentas, servidor ni dependencias externas.
-- Service worker limitado a esta carpeta para uso sin conexión después de una primera visita completa.
+Aplicación educativa para aprender mezclas de colores con el modelo RYB.
 
-Las mezclas son una simulación educativa RYB. Los secundarios se descomponen en cantidades iguales de sus primarios y blanco/negro aclaran/oscurecen el resultado. Una receta mostrada es una composición posible, no la única.
+## Estado
 
-Comprobaciones: `node paleta-pintor/tests/core.cjs` desde la raíz del repositorio.
-Para publicar, mantener esta carpeta en la rama que ya usa GitHub Pages. No requiere compilación.
+Versión: **main actual** (sin versión semántica publicada).
+
+## Funciones
+
+- Aprendizaje guiado en cinco niveles.
+- Laboratorio de mezclas por número de gotas.
+- Juegos de reconocimiento de colores y mezclas.
+- Paleta con primarios, secundarios, blanco y negro.
+- Recetas de color expresadas como porcentajes.
+- Progreso guardado solo en el navegador.
+- Aplicación instalable y disponible sin conexión después de la primera carga.
+
+Web: <https://ricardoyf.github.io/PaletaPintor/>
+
+Pruebas: `node tests/core.cjs`.
